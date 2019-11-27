@@ -41,12 +41,13 @@ namespace dicrisif_Assignment13
 
         private void Vote()
         {
-          //  Console.WriteLine("\nVoting has begun in " + LocationState + " at " + LocationName + "\n");
+            Console.WriteLine("\nVoting has begun in " + LocationState + " at " + LocationName + "\n");
 
+            Thread.Sleep(new Random().Next(1,5));
             UnitedStatesVoteTotal++;
             LocationVotes++;
 
-           // Console.WriteLine("\nVoting has completed in " + LocationState + " at " + LocationName + "\nUnitedStatesVoteTotal: " + UnitedStatesVoteTotal + " Location Total: " + LocationVotes + "\n");
+            Console.WriteLine("\nVoting has completed in " + LocationState + " at " + LocationName + "\nUnitedStatesVoteTotal: " + UnitedStatesVoteTotal + " Location Total: " + LocationVotes + "\n");
 
 
         }
